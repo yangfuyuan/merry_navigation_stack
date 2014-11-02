@@ -1,0 +1,29 @@
+<package>
+  <description brief="merry_navigation_stack">
+
+     merry_navigation_stack
+
+  </description>
+  <author>Emmett</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/merry_navigation_stack</url>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+  <depend package="std_msgs"/>
+  <depend package="merryMsg"/>
+  <depend package="opencv2"/>
+  <depend package="nav_msgs"/>
+  <depend package="qt_build"/>
+  <depend package="roscpp"/>
+
+
+  <rosdep name="libqt4-dev"/>
+  <depend package="qt_build"/>
+
+  <depend package="rgbdslam"/>
+  <depend package="multi_rgbdslam"/>
+  <depend package="visualization_msgs"/>
+  <depend package="std_srvs"/>
+</package>

@@ -1,0 +1,10 @@
+(cl:defpackage merry_navigation_stack-srv
+  (:use )
+  (:export
+   "QUERYFORFRONTIERS"
+   "<QUERYFORFRONTIERS-REQUEST>"
+   "QUERYFORFRONTIERS-REQUEST"
+   "<QUERYFORFRONTIERS-RESPONSE>"
+   "QUERYFORFRONTIERS-RESPONSE"
+  ))
+
